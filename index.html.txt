@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acoustriq</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: #0e0e0e;
+      color: #ffffff;
+    }
+    header {
+      background-image: url('banner.jpg');
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      padding: 120px 20px 60px;
+    }
+    header img {
+      width: 140px;
+      height: auto;
+    }
+    h1 {
+      margin-top: 20px;
+      font-size: 2.8rem;
+      color: #f8f8f8;
+    }
+    p.tagline {
+      font-size: 1.2rem;
+      color: #cccccc;
+    }
+    main {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    .buttons {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .btn {
+      display: inline-block;
+      background-color: #f16c00;
+      color: #fff;
+      padding: 12px 20px;
+      margin: 10px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #c85600;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Acoustriq Logo" />
+    <h1>Acoustriq</h1>
+    <p class="tagline">Sonic & Visual Craft for the New Media Era</p>
+  </header>
+  <main>
+    <p>
+      Acoustriq is a creative media production space that blends sound, vision, and narrative.
+      We collaborate with bold minds — brands, creators, and changemakers — to craft experiences that don’t just inform, but move.
+    </p>
+
+    <p><strong>Company Profile:</strong> Coming Soon</p>
+
+    <div class="buttons">
+      <a href="mailto:info@acoustiq.agency" class="btn">Send Email</a>
+      <a href="https://wa.me/201015859620" class="btn" target="_blank">Chat on WhatsApp</a>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 Acoustriq. All rights reserved.
+  </footer>
+</body>
+</html>
